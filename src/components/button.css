@@ -1,0 +1,24 @@
+.mainBtn {
+    position: relative;
+    background: var(--primary);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin-right: 15px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer !important;
+}
+
+.mainBtn:hover {
+    background: #fff !important;
+    color: var(--primary) !important;
+    cursor: pointer !important;
+}
