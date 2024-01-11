@@ -3,6 +3,7 @@ import "./main.css";
 import Schedule from "./Schedule";
 import Trend from "../pages/Trend";
 import Blog from "../pages/Blog";
+import Footer from "../pages/Footer";
 
 function Main() {
   return (
@@ -10,6 +11,7 @@ function Main() {
       <Schedule />
       <Trend />
       <Blog />
+      <Footer />
     </main>
   );
 }
