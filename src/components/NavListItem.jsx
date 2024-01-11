@@ -1,12 +1,20 @@
-import React from 'react';
-import './navListItem.css';
+import React from "react";
+import "./navListItem.css";
 
-function NavListItem({ nav }) {
+function NavListItem({ nav, onClick }) {
   return (
     <li>
-        <a href={nav.link}>{nav.name}</a>
+      <a
+        href={nav.link}
+        className={`${nav.active ? "active" : undefined}`}
+        onClick={() => {
+          onClick(nav.id);
+        }}
+      >
+        {nav.name}
+      </a>
     </li>
-  )
+  );
 }
 
-export default NavListItem
+export default NavListItem;
