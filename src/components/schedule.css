@@ -33,14 +33,28 @@ section .section-title::after {
     left: 0;
     bottom: -30px;
     height: 5px;
-    width: 50%;
+    width: 80%;
     background: linear-gradient(90deg, var(--primary), var(--primary), transparent);
     z-index: 1000;
 }
 
-section p {
-    font-weight: 300;
-    color: #111;
-    letter-spacing: 1px;
-    margin-bottom: 40px;
+section .filters {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+section .filters li {
+    color: #fff;
+    padding: 10px 25px;
+    background: #191919;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+section .filters li:hover, section .filters li.active {
+    background: var(--primary);
 }

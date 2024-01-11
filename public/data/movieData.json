@@ -10,7 +10,7 @@
         "release_date": "14th December",
         "age_limit": "14+",
         "length": "1h 59m",
-        "category": "Action/Comedy",
+        "category": "Comedy",
         "type": "released",
         "active": true
     },
@@ -26,7 +26,7 @@
         "release_date": "15th December",
         "age_limit": "14+",
         "length": "2h 14m",
-        "category": "Fantasy/Action",
+        "category": "Fantasy",
         "type": "released",
         "active": false
     },
@@ -42,7 +42,7 @@
         "release_date": "15th November",
         "age_limit": "13+",
         "length": "2h 38m",
-        "category": "Action/Adventure",
+        "category": "Adventure",
         "type": "released",
         "active": false
     },
@@ -58,7 +58,7 @@
         "release_date": "30th November",
         "age_limit": "16+",
         "length": "1h 44m",
-        "category": "Action/Thriller",
+        "category": "Thriller",
         "type": "released",
         "active": false
     },
@@ -74,7 +74,7 @@
         "release_date": "20th December",
         "age_limit": "10+",
         "length": "2h 4m",
-        "category": "Action/Fantasy",
+        "category": "Action",
         "type": "released",
         "active": false
     },
@@ -90,7 +90,7 @@
         "release_date": "16th November",
         "age_limit": "17+",
         "length": "1h 46m",
-        "category": "Horror/Mystery",
+        "category": "Horror",
         "type": "released",
         "active": false
     },
@@ -122,7 +122,7 @@
         "release_date": "25th October",
         "age_limit": "13+",
         "length": "1h 49m",
-        "category": "Horror/Mystery/Thriller",
+        "category": "Mystery",
         "type": "released",
         "active": false
     },
@@ -138,7 +138,7 @@
         "release_date": "6th December",
         "age_limit": "10+",
         "length": "1h 56m",
-        "category": "Adventure/Comedy/Family",
+        "category": "Adventure",
         "type": "released",
         "active": false
     },
@@ -154,7 +154,7 @@
         "release_date": "3rd November",
         "age_limit": "16+",
         "length": "1h 56m",
-        "category": "Action/Mystery/Thriller",
+        "category": "Thriller",
         "type": "released",
         "active": false
     },
@@ -170,7 +170,7 @@
         "release_date": "5th October",
         "age_limit": "15+",
         "length": "1h 48m",
-        "category": "Action/Comedy",
+        "category": "Action",
         "type": "released",
         "active": false
     },
@@ -186,7 +186,7 @@
         "release_date": "24th October",
         "age_limit": "16+",
         "length": "1h 38m",
-        "category": "Horror/Mystery",
+        "category": "Mystery",
         "type": "released",
         "active": false
     },
@@ -202,7 +202,7 @@
         "release_date": "15th September",
         "age_limit": "R",
         "length": "1h 43m",
-        "category": "Action/Adventure/Thriller",
+        "category": "Adventure",
         "type": "released",
         "active": false
     },
@@ -218,7 +218,7 @@
         "release_date": "27th September",
         "age_limit": "13+",
         "length": "1h 43m",
-        "category": "Action/Adventure/Drama",
+        "category": "Action",
         "type": "released",
         "active": false
     },
@@ -234,7 +234,7 @@
         "release_date": "19th July",
         "age_limit": "R",
         "length": "3h",
-        "category": "Biography/Drama/History",
+        "category": "Biography",
         "type": "released",
         "active": false
     },
@@ -266,7 +266,7 @@
         "release_date": "12th October",
         "age_limit": "6+",
         "length": "1h 31m",
-        "category": "Animation/Adventure/Comedy",
+        "category": "Animation",
         "type": "released",
         "active": false
     },
@@ -282,7 +282,7 @@
         "release_date": "17th November",
         "age_limit": "6+",
         "length": "1h 42m",
-        "category": "Animation/Adventure/Comedy",
+        "category": "Animation",
         "type": "released",
         "active": false
     },
@@ -298,7 +298,7 @@
         "release_date": "26th November",
         "age_limit": "R",
         "length": "1h 41m",
-        "category": "Action/Drama/History",
+        "category": "Action",
         "type": "released",
         "active": false
     },
@@ -314,7 +314,7 @@
         "release_date": "30th August",
         "age_limit": "R",
         "length": "1h 49m",
-        "category": "Action/Crime/Thriller",
+        "category": "Action",
         "type": "released",
         "active": false
     },
@@ -330,7 +330,7 @@
         "release_date": "22th March",
         "age_limit": "15+",
         "length": "2h 49m",
-        "category": "Action/Crime/Thriller",
+        "category": "Action",
         "type": "released",
         "active": false
     }
