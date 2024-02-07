@@ -1,18 +1,19 @@
 import React, { useState, useEffect } from "react";
 import "./blog.css";
 import BlogCard from "../components/BlogCard";
+import blogData from "../../public/data/blogData";
 
 function Blog() {
   const [blogs, setBlogs] = useState([]);
 
-  const fetchData = () => {
-    fetch("http://localhost:5173/data/blogData.json")
-      .then((res) => res.json())
-      .then((data) => setBlogs(data));
-  };
+  // const fetchData = () => {
+  //   fetch("http://localhost:5173/data/blogData.json")
+  //     .then((res) => res.json())
+  //     .then((data) => setBlogs(data));
+  // };
 
   useEffect(() => {
-    fetchData();
+    setBlogs(blogData);
   }, []);
   return (
     <section className="blogs" id="blogs">

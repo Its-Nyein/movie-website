@@ -4,18 +4,19 @@ import MovieContent from "../components/MovieContent";
 import MovieDate from "../components/MovieDate";
 import PlayBtn from "../components/PlayBtn";
 import MovieSwiper from "../components/MovieSwiper";
+import MovieData from "../../public/data/movieData.js";
 
 function Movie() {
   const [movies, setmovies] = React.useState([]);
 
-  const fetchMovie = () => {
-    fetch("http://localhost:5173/data/movieData.json")
-      .then((res) => res.json())
-      .then((data) => setmovies(data));
-  };
+  // const fetchMovie = () => {
+  //   fetch("http://localhost:5173/data/movieData.json")
+  //     .then((res) => res.json())
+  //     .then((data) => setmovies(data));
+  // };
 
   React.useEffect(() => {
-    fetchMovie();
+    setmovies(MovieData);
   }, []);
 
   const handleChange = (id) => {

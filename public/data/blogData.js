@@ -1,4 +1,4 @@
-[
+export default[
     {
         "id": 1,
         "thumbnail": "https://images.unsplash.com/photo-1513106580091-1d82408b8cd6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8NUQlMjB0aGVhdHJlfGVufDB8fDB8fHww",
